@@ -1,0 +1,32 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "keywords": [
+    "html",
+    "css",
+    "javascript",
+    "sass",
+    "async",
+    "APIs"
+  ],
+  "license": "ISC",
+  "author": "Sirb Raul Cosmin",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist --no-optimize"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.15.4",
+    "parcel": "^2.15.4",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "core-js": "^3.44.0",
+    "dotenv": "^17.2.0",
+    "fracty": "^1.0.12",
+    "regenerator-runtime": "^0.14.1"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
